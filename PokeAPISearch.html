@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Search</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="PokeAPIHome.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Pokémons</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="http://127.0.0.1:5500/PokeAPIHome.html#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://127.0.0.1:5500/PokeAPISearch.html">Search</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="http://127.0.0.1:5500/PokeAPIDetails.html">Details</Details></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1 class="text-center"><b>Pokémon Search</b></h1>
+        <div class="form-group">
+            <input type="text" id="pokemonInput" class="form-control" placeholder="Enter Pokémon name or ID">
+        </div>
+        <button id="searchButton" class="btn btn-primary">Search</button>
+        <div id="pokemonInfo" class="mt-4"></div>
+    </div>
+    <script defer src="PokeAPISearch.js"></script>
+</body>
+</html>

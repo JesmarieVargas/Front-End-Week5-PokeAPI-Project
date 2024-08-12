@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Details</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="PokeAPIHome.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Pokémons</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="http://127.0.0.1:5500/PokeAPIHome.html#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://127.0.0.1:5500/PokeAPISearch.html">Search</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="http://127.0.0.1:5500/PokeAPIDetails.html">Details</Details></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5"> 
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <div id="pokemonDetails" class="pokemon-card card " >
+                    <!-- Pokémon details will be dynamically inserted here -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script defer src="PokeAPIDetails.js"></script>
+</body>
+</html>
